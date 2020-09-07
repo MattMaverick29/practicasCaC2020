@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Curso Codo a Codo 2020</title>
+</head>
+<body>
+    <header class="contenedor site-header">
+        <nav class="navegacion">
+            <a href="index.html">Inicio</a>
+            <a href="usecss.html">CSS</a>
+            <a href="pseudo.html">Pseudo</a>
+            <a href="ejemplo1.html">TP U2 CSS</a>
+        </nav>
+    </header>
+    <main>
+        <h1>Formulario</h1>
+        <form action="enviado.html">
+
+            <label for="fname">Nombre:</label>
+            <input type="text" id="fname" name="fname" required><br><br>
+            <label for="lname">Apellido:</label>
+            <input type="text" id="lname" name="lname" required><br><br>
+            <label for="mail">Mail:</label>
+            <input type="email" id="mail" name="mail" required><br><br>
+            <label for="password">Contraseña:</label>
+            <input type="password" id="password" name="password" required><br><br>
+            <label for="date">Fecha:</label>
+            <input type="date" id="date" name="date"><br><br>
+            <label for="link">URL:</label>
+            <input type="url" id="link" name="link"><br><br>
+            
+            <p>¿Que te parece la página?</p>
+            <input type="radio" id="genero1" name="genero" value="bueno">
+            <label for="genero1">Me encanta</label><br><br>
+            <input type="radio" id="genero2" name="genero" value="bueno2">
+            <label for="genero2">Me da asco</label>
+            
+            <p>¿Que lenguajes dominas?</p>
+            <input type="checkbox" name="hola" id="opt1">
+            <label for="opt1">Java</label>
+            <input type="checkbox" name="hola" id="opt2">
+            <label for="opt2">Python</label>
+            <input type="checkbox" name="hola" id="opt3">
+            <label for="opt3">C#</label>
+            <input type="checkbox" name="hola" id="opt4">
+            <label for="opt3">.NET</label><br><br>
+
+            <label for="definir">¿Como te definirias? </label>
+            <select name="opciones" id="definir">
+                <option value="tranqui">Tranquilo</option>
+                <option value="normal">Normal</option>
+                <option value="histerico">Histerico</option>
+                <option value="idea">No tengo idea</option>
+            </select> <br><br>
+
+            <label for="coment">Dejanos tu comentario:</label><br>
+            <textarea name="coment" id="coment" cols="30" rows="10"></textarea><br><br>
+            
+            <button type="submit" value="Enviar">Enviar</button>
+        </form>
+    </main>
+
+    <footer class="contenedor pie">
+        <p>Esto es el FOOTER&copy;</p>
+    </footer>
+</body>
+</html>
