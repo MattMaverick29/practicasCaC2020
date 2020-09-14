@@ -221,3 +221,8 @@ rect {
 text {
     font-size: 2rem;
 }
+
+.btn-enlace {
+    font-size: 1.8rem;
+    margin-bottom: .5rem;
+}
